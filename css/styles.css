@@ -6,6 +6,8 @@
     --white-cl: #FFFFFF;
     --cloud-cl: #F4F4FD;
     --cornflower-cl: #E7E9FC;
+    --bg-grey: #2E2F42B2;
+    --light-slate: #8E8F99;
 
     --main-font: Roboto, sans-serif;
     --secondary-font: Raleway, sans-serif;
@@ -172,7 +174,6 @@ img {
 
 .header-logo-accent {
     color: var(--navyblue-cl);
-    margin-right: 76px;
 }
 
 /**
@@ -218,9 +219,16 @@ img {
    HERO
  */
 .hero {
-    background-color: var(--navyblue-cl);
+    /*background-color: var(--navyblue-cl);*/
     color: var(--white-cl);
     padding: 188px 0;
+
+    background-color: var(--bg-grey);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),
+    url('../images/studio/hero-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .hero-title {
@@ -230,6 +238,8 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     margin-bottom: 48px;
+    margin-left: auto;
+    margin-right: auto;
     max-width: 496px;
 }
 
@@ -273,7 +283,7 @@ img {
    ACTION
  */
 .action{
-    padding: 120px;
+    padding-bottom: 120px;
 }
 
 .action-list {
@@ -292,6 +302,7 @@ img {
 .team {
     background-color: var(--cloud-cl);
     padding: 120px 0;
+    margin-bottom: 120px;
 }
 
 .team-item {
@@ -321,6 +332,40 @@ img {
 .team-container {
     padding: 32px 0;
 }
+
+/**
+   Customers
+ */
+.customers{
+    padding-bottom: 120px;
+}
+
+.customers-list {
+    display: flex;
+    gap: 24px;
+}
+
+.customers-item {
+    width: calc((100% - 168px) / 6);
+}
+
+.customers-link {
+    color: var(--light-slate);
+
+    border: 1px solid var(--light-slate);
+    border-radius: 4px;
+}
+
+.customers-link:focus,
+.customers-link:hover {
+    border-color: var(--ocaen-cl);
+    color: var(--ocaen-cl);
+}
+
+.customers-icon {
+    fill: currentColor;
+}
+
 
 /**
   |============================
@@ -378,7 +423,6 @@ PORTFOLIO
 }
 
 .portfolio-item {
-    border: 1px solid var(--cornflower-cl);
     width: calc((100% - 48px) / 3);
 }
 
