@@ -159,22 +159,9 @@ img {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-link::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -1px;
-
-    display: block;
-    height: 4px;
-    background-color: var(--ocaen-cl);
-    border-radius: 2px;
-}
-
 .address-list {
     display: flex;
     gap: 40px;
-    /*transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);*/
 }
 
 .address-link {
@@ -189,6 +176,18 @@ img {
     color: var(--navyblue-cl);
     position: relative;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+
+    display: block;
+    height: 4px;
+    background-color: var(--ocaen-cl);
+    border-radius: 2px;
 }
 
 .address-link:hover,
