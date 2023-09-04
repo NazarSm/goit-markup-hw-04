@@ -186,14 +186,7 @@ img {
     border-radius: 2px;
 }
 
-/**
-   ERROR on portfolio??
- */
-/*.header-nav-list-item:first-child .header-link {*/
-/*    color: var(--ocaen-cl);*/
-/*}*/
-
-.header-link-first {
+.header-link-accent {
     color: var(--ocaen-cl);
 }
 
