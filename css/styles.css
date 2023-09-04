@@ -186,6 +186,10 @@ img {
     border-radius: 2px;
 }
 
+.header-link-first {
+    color: var(--ocaen-cl);
+}
+
 .address-link:hover,
 .address-link:focus,
 .header-link:hover,
