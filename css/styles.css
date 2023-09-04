@@ -186,7 +186,14 @@ img {
     border-radius: 2px;
 }
 
-.header-nav-list-item:first-child .header-link {
+/**
+   ERROR on portfolio??
+ */
+/*.header-nav-list-item:first-child .header-link {*/
+/*    color: var(--ocaen-cl);*/
+/*}*/
+
+.header-link-first {
     color: var(--ocaen-cl);
 }
 
