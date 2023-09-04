@@ -154,11 +154,6 @@ img {
     color: var(--ocaen-cl);
 }
 
-.header-link {
-    position: relative;
-    color: var(--ocaen-cl);
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
 .address-list {
     display: flex;
@@ -172,11 +167,11 @@ img {
 }
 
 .header-link {
+    color: var(--navyblue-cl);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     display: block;
     padding: 24px 0;
-    color: var(--navyblue-cl);
     position: relative;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-link::after {
@@ -269,7 +264,7 @@ img {
     margin-bottom: 16px;
 }
 
-.social-footer-icon {
+.footer-social-icon {
     fill: var(--cloud-cl);
 }
 
@@ -555,7 +550,7 @@ img {
 }
 
 .customers-icon {
-    fill: var(--cloud-cl);
+    fill: currentColor;
 }
 
 
