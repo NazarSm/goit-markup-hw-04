@@ -186,7 +186,7 @@ img {
     border-radius: 2px;
 }
 
-.header-link-first {
+.header-nav-list-item:first-child .header-link {
     color: var(--ocaen-cl);
 }
 
